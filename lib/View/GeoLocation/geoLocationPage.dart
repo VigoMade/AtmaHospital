@@ -83,7 +83,7 @@ class _GeoLocationState extends State<GeoLocationPage> {
                     print(_currentAddress);
                   },
                   style: ElevatedButton.styleFrom(
-                    primary: Colors.green,
+                    backgroundColor: Colors.green,
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(1.5.h),
                     ),

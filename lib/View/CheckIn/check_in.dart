@@ -66,7 +66,7 @@ class _CheckInPageState extends State<CheckInPage> {
                     _qrController.toggleFlash();
                   },
                   style: ElevatedButton.styleFrom(
-                    primary: Colors.green,
+                    backgroundColor: Colors.green,
                   ),
                   child: const Text('Toggle Flash'),
                 ),
